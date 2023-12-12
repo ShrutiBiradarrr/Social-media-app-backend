@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 
-const database = "mongodb+srv://chaitnya_giri:chaitnya2306@mycluster.osnnc.mongodb.net/socialix_db?retryWrites=true&w=majority";
+const database = "mongodb+srv://shrutibiradar818:eJcCSJJqAiXfKpog@cluster1.50ig38a.mongodb.net/dbuser?retryWrites=true&w=majority";
 const dbConnection = async()=>{
 
     
