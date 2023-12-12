@@ -11,7 +11,7 @@ router.get('/' ,(req,res)=>{
     res.json({
         api:"success",
         application:"socialix",
-        author:"chaitnya 23",
+        author:"shruti 10",
         version:"1.0.0.0"
     })
 })
