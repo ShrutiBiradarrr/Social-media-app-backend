@@ -18,20 +18,18 @@ const userSchema = new mongoose.Schema(
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
-    
       },
     ],
     friends: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
-        
       },
     ],
     Posts: [
       {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Post", 
+        ref: "Post",
       },
     ],
     SavedPosts: [
@@ -40,12 +38,12 @@ const userSchema = new mongoose.Schema(
         ref: "Post",
       },
     ],
-    notifications:[
+    notifications: [
       {
-        type:mongoose.Schema.Types.ObjectId,
-        ref:"Notification"
-      }
-    ]
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Notification",
+      },
+    ],
   },
   { timestamps: true }
 );
