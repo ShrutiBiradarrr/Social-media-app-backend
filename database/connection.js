@@ -1,9 +1,14 @@
 const mongoose = require("mongoose");
 
-const db = process.env.MONGO_URL;
-const dbConnection = async () => {
-  mongoose
-    .connect(`${db}`)
+
+const mongoose = require('mongoose')
+
+
+const database = "mongodb+srv://shrutibiradar818:eJcCSJJqAiXfKpog@cluster1.50ig38a.mongodb.net/dbuser?retryWrites=true&w=majority";
+const dbConnection = async()=>{
+
+    
+    mongoose.connect(`${database}`)
     .then(() => console.log("Database succesfully connected with server..."))
     .catch((err) => console.log(err));
 };

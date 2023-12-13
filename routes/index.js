@@ -13,11 +13,15 @@ router.get("/", (req, res) => {
   });
 });
 
+
 // using diffrent rou ters
 router.use("/api/user", user_router);
 router.use("/api/auth", auth_router);
 router.use("/api/post", post_router);
 router.use("/api/request", request_router);
 router.use("/api/notification", notification_router);
+
+
+
 
 module.exports = router;
