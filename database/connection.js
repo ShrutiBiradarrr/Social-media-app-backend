@@ -1,9 +1,6 @@
 const mongoose = require("mongoose");
 
 
-const mongoose = require('mongoose')
-
-
 const database = "mongodb+srv://shrutibiradar818:eJcCSJJqAiXfKpog@cluster1.50ig38a.mongodb.net/dbuser?retryWrites=true&w=majority";
 const dbConnection = async()=>{
 
